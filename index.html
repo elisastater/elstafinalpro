@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylsheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script 5E7C88 src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+    </script>
+
+
+
+    <title>navigation menu</title>
+
+    <style>
+        .carousel-inner>.item>img,
+        .carousel-inner>.item>a>img {
+            width: 70%;
+            margin: auto;
+            height: 600px;
+            width: 2000px;
+        }
+
+
+        image#STRIVE_logo {
+            height 100% width: auto;
+            display: in-line margin-top;
+            -10px
+        }
+
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+        }
+
+
+
+        h1 {
+            font-family: 'PTSans';
+            font-style: italic;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            -webkit-transform: scale(1.5);
+            -ms-transform: scale(1.5);
+            transForm: scale(2.0);
+            background-color: none;
+        }
+
+        nav a {
+            -webkit-transition: -webkit-transform .5s;
+            background-color 1s ease-in .5s;
+            transition: transform .5s;
+            background-color 1s ease-in .5s;
+        }
+
+        body {
+            padding-top: 80px;
+        }
+
+        .fa-facebook {
+            background: #007bb5;
+            color: white;
+        }
+
+        .fa-twitter {
+            background: #55ACEE;
+            color: white;
+        }
+
+        .fa-google {
+            background: #dd4b39;
+            color: white;
+        }
+
+        .fa-linkedin {
+            background: #007bb5;
+            color: white;
+        }
+
+        .fa-youtube {
+            background: #bb0000;
+            color: white;
+        }
+
+        .fa-instagram {
+            background: #125688;
+            color: white;
+        }
+        /* Style all font awesome icons */
+
+        .fa {
+            padding: 15px;
+            font-size: 20px;
+            width: 60px;
+            text-align: center;
+            text-decoration: none;
+            border-collapse: collapse;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html">
+            <img src="images/my_logo.png" alt="my_logo" id="my_logo ">
+        </a>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        				<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+        				<span class="icon-bar"></span>                   
+      				</button>
+
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="dashboard.html">Dashboard</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-
+                    center">
+                        <li><a href="email">Email</a></li>
+
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-google"></a>
+                        <a href="#" class="fa fa-linkedin"></a>
+                        <a href="#" class="fa fa-youtube"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span>Login</a>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="images/Fitness.jpg" alt="Fitness" width="460" height="460">
+                <div class="carousel-caption">
+                    <h3>
+                        <h/3>
+                            <p></p>
+                </div>
+            </div>
+
+            <!--<div class="item">
+      <img src="images/active.jpg" alt="active" width="460" height="345">
+      <div class="carousel-caption">
+          <h3>Extreme Sports</h3>
+        <p></p>
+      </div>
+    </div>-->
+
+            <div class="item">
+                <img src="images/runner_1280.jpg" alt="runner_1280" width="460" height="345">
+                <div class="carousel-caption">
+                    <h3>Running</h3>
+                    <p></p>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="images/manmountain.jpg" alt="manmountain" width="460" height="345">
+                <div class="carousel-caption">
+                    <h3>Hiking</h3>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+                
+       
+            
+            
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    </div>
+        
+         <div style="background-color:black !important" class="jumbotron text-center">
+      		<h1></h1>
+		<h2></h2>
+	</div>
+	<div class="container">
+		<div style="text-align: center !important" class="row">
+			<div class="col-md-6">
+				<h3>Choose your workout</h3>
+            </div>
+        </div>
+            <div style="text-align: center !important" class="row">
+			<div class="col-md-6">
+				<h3>Select Your Device</h3> 
+            </div>
+            </div>
+              <div style="text-align: center !important" class="row">
+            	<div class="col-md-6">
+				<h3>Track your progresss</h3> 
+            </div>
+            </div>
+     <container/>
+    <footer>
+        <div id="container" class="footer" height="100%">
+            <nav role="navigation">
+    
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+                <!--Abosolute Path-->
+                <a href="http//www.google.com">Google</a>
+
+            </nav>
+        </div>
+        <footer>
+
+
+
+        </footer>
+
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.min.js"></script>
+
+</body>
+</html>
